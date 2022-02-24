@@ -5,7 +5,7 @@ use BaseModel\BaseModel;
 class User extends BaseModel
 {
 
-    private string $firstName;
+    private ?string $firstName;
     private ?string $lastName;
     private ?int $age;
 

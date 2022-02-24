@@ -1,13 +1,14 @@
 <?php
 declare (strict_types=1);
 
-require_once __DIR__ . '/../vendor/autoload.php';
+
+//require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/models/User.php';
 
 /*
  * BaseModel test
  */
-
+/*
 $user = new User(1, firstName: 'Ildar', lastName: 'Kabirov', age: 32);
 //$user->save();
 //
@@ -21,3 +22,4 @@ $user = new User(1, firstName: 'Ildar', lastName: 'Kabirov', age: 32);
 $data = $user->delete();
 
 var_dump($data);
+*/

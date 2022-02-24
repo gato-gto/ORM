@@ -17,6 +17,10 @@
     }
   ],
   "require": {
-    "nilportugues/sql-query-builder": "^1.8"
+    "doctrine/orm": "^2.11.0",
+    "doctrine/dbal": "^3.2",
+    "doctrine/annotations": "1.13.2",
+    "doctrine/cache": "^2.1",
+    "symfony/cache": "^6.0"
   }
 }
