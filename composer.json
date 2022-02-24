@@ -1,0 +1,22 @@
+{
+  "name": "hex/orm",
+  "description": "ORM",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Hex\\Orm\\": "src/",
+      "BaseModel\\": "BaseModel/",
+      "ObjectManager\\": "ObjectManager/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ildar Kabirov",
+      "email": "gato.gto.13@gmail.com"
+    }
+  ],
+  "require": {
+    "nilportugues/sql-query-builder": "^1.8"
+  }
+}
